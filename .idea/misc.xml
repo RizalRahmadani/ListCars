@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.LoginActivity auth" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.RegisterActivity auth" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.DetailActivity b" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.DetailActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.LoginActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.MainActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.RegisterActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.SplashActivity binding" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.MainActivity carAdapter" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.DetailActivity dataCar" />
+      <entry_point TYPE="field" FQNAME="com.rzl.listcars.view.CarAdapter onDetail" />
+      <entry_point TYPE="method" FQNAME="com.rzl.listcars.viewmodel.ViewModelCar$-1 void onFailure(retrofit2.Call&lt;java.util.List&lt;com.rzl.listcars.model.ResponseDataCarItem&gt;&gt; call, java.lang.Throwable t)" />
+      <entry_point TYPE="method" FQNAME="com.rzl.listcars.viewmodel.ViewModelCar$-1 void onResponse(retrofit2.Call&lt;java.util.List&lt;com.rzl.listcars.model.ResponseDataCarItem&gt;&gt; call, retrofit2.Response&lt;java.util.List&lt;com.rzl.listcars.model.ResponseDataCarItem&gt;&gt; response)" />
+    </entry_points>
+    <pattern value="com.rzl.listcars.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" method="callApiCar" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" method="callDetailCar" />
+    <pattern value="com.rzl.listcars.view.CarAdapter" />
+    <pattern value="com.rzl.listcars.view.CarAdapter" method="CarAdapter" />
+    <pattern value="com.rzl.listcars.id.CarApplication" />
+    <pattern value="com.rzl.listcars.view.DetailActivity" />
+    <pattern value="com.rzl.listcars.ExampleInstrumentedTest" />
+    <pattern value="com.rzl.listcars.ExampleUnitTest" />
+    <pattern value="com.rzl.listcars.view.DetailActivity" method="getDetailCar" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" method="getDetailCar" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" method="getliveDataCar" />
+    <pattern value="com.rzl.listcars.network.RetrofitClient" method="getLogging" />
+    <pattern value="com.rzl.listcars.view.LoginActivity" />
+    <pattern value="com.rzl.listcars.view.MainActivity" />
+    <pattern value="com.rzl.listcars.view.RegisterActivity" />
+    <pattern value="com.rzl.listcars.model.ResponseDataCar" />
+    <pattern value="com.rzl.listcars.network.RetrofitClient" />
+    <pattern value="com.rzl.listcars.view.SplashActivity" />
+    <pattern value="com.rzl.listcars.view.LoginActivity" method="LoginFirebase" />
+    <pattern value="com.rzl.listcars.network.RetrofitClient" method="provideNewsApi" />
+    <pattern value="com.rzl.listcars.network.RetrofitClient" method="provideRetrofit" />
+    <pattern value="com.rzl.listcars.view.RegisterActivity" method="RegisterFirebase" />
+    <pattern value="com.rzl.listcars.model.ResponseDataCarItem" />
+    <pattern value="com.rzl.listcars.model.ResponseDataCarItem" method="ResponseDataCarItem" />
+    <pattern value="com.rzl.listcars.view.MainActivity" method="setVmtoAdapter" />
+    <pattern value="com.rzl.listcars.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.rzl.listcars.view.CarAdapter.ViewHolder" />
+    <pattern value="com.rzl.listcars.view.CarAdapter.ViewHolder" method="ViewHolder" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" />
+    <pattern value="com.rzl.listcars.viewmodel.ViewModelCar" method="ViewModelCar" />
+    <pattern value="com.rzl.listcars.view.CarAdapter" method="getItemCount" />
+    <pattern value="com.rzl.listcars.view.CarAdapter" method="onBindViewHolder" />
+    <pattern value="com.rzl.listcars.view.DetailActivity" method="onCreate" />
+    <pattern value="com.rzl.listcars.view.CarAdapter" method="onCreateViewHolder" />
+    <pattern value="com.rzl.listcars.view.LoginActivity" method="onCreate" />
+    <pattern value="com.rzl.listcars.view.MainActivity" method="onCreate" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

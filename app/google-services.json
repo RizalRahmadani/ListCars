@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "880832177297",
+    "project_id": "listcars",
+    "storage_bucket": "listcars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880832177297:android:ee869a212e9a142e748b30",
+        "android_client_info": {
+          "package_name": "com.rzl.listcars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880832177297-1r1dfnubu315itumcth7svmre0hletlh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rzl.listcars",
+            "certificate_hash": "e99f28be50d0309b120304b839f44649ef711c3b"
+          }
+        },
+        {
+          "client_id": "880832177297-mhkqotpqj0cpg9qcmf2ur6gvtdvfc2jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCezjJ8XDV3jcRRFtvlkqMPNMhFCAzUe6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880832177297-mhkqotpqj0cpg9qcmf2ur6gvtdvfc2jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
